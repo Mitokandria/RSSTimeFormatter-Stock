@@ -270,8 +270,8 @@ namespace RSSTimeFormatter
 
         public int Minute => 60;
         public int Hour => 3600;
-        public int Day => 86400;
-        public int Year => 31536000;
+        public int Day => 21600;
+        public int Year => 7884000;
         #endregion
 
         protected bool IsInvalidTime(double time)
